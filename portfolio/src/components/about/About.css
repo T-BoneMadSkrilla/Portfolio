@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:600');
+
+.indexZero{
+    color: #FFF;
+    margin-left: 20px;
+    font-size: 1em;
+    
+}
+
+.firstParagraph{
+    margin-left: 20px;
+    color: #61dafb;
+    font-size: 1em;
+    font-family: 'Dosis', sans-serif;
+    max-width: 40vw;;
+}
+
+.secondParagraph{
+    margin-left: 20px;
+    color: #FFF;
+    font-size: 1em;
+    font-family: 'Dosis', sans-serif;
+    max-width: 40vw;
+}
