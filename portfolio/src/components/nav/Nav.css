@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+.burger{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.burger:hover{
+    cursor: pointer;
+}
+
+.topBun{
+    height: 13.5px;
+    width: 60px;
+    background: #FFF;
+    border-radius: 10%;
+    margin: 5px;
+}
+
+.middleBun{
+    height: 13.5px;
+    width: 30px;
+    background: #FFF;
+    border-radius: 10%;
+    margin: 5px;
+}
+
+.bottomBun{
+    height: 13.5px;
+    width: 60px;
+    background: #FFF;
+    border-radius: 10%;
+    margin: 5px;
+}
+
+.firstName{
+    font-size: 55px;
+    font-family: 'Pacifico', cursive;
+    color: #FFF;
+}
+
+.eftink{
+    display: flex;
+}
+
+.restOfLastName{
+    font-size: 55px;
+    font-family: 'Pacifico', cursive;
+    color: #FFF;
+}
+
+
+.crossBar{
+    height: 50px;
+    width: 50px;
+    background-color: #FA6900;
+    border-radius: 5px;
+    font-size: 30px; 
+    color: #FFF;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.crossBar:hover{
+    cursor: pointer;
+}
+
+.centerNav{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.boxAroundLinks{
+    opacity: 1;
+    height: 250px;
+    width: 45vw;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    background: #61dafb;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+  .fadeIn-appear {
+    opacity: 0.01;
+  }
+  
+  .fadeIn-appear.fadeIn-appear-active {
+    opacity: 1;
+    transition: opacity .5s ease-in;
+  }
+
+  .navLinks{
+    height: 50px;
+    width: 125px;
+    background-color: #FA6900;
+    border-radius: 5px;
+    font-size: 30px; 
+    color: #FFF;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+  }
+
+  
