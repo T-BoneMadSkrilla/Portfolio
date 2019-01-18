@@ -3,6 +3,7 @@ import './LandingPage.css';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import About from '../about/About';
 import Work_projects from '../work_projects/Work_projects';
+import Resume from '../resume/Resume';
 
 class LandingPage extends Component {
     render(){
@@ -59,8 +60,21 @@ class LandingPage extends Component {
                       <div className="secondDivider"></div>
                      </ReactCSSTransitionGroup>
 
-                     <div>
+                     <div className="resume">
                         <Work_projects/>
+                     <ReactCSSTransitionGroup
+                        transitionName="fadeIn"
+                        transitionAppear={true}
+                        transitionAppearTimeout={19000}
+                        transitionEnter={false}
+                        transitionLeave={true}>                       
+                      <div className="firstDivider"></div>
+                     </ReactCSSTransitionGroup>
+
+                     </div>
+                     <div>
+                        <Resume/>
+                     Résumé
                      </div>
                         </div>
             </div>

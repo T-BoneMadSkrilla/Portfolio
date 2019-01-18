@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:600');
+.whiteTextCompetencies{
+    color: #FFF;
+    font-size: 1.5em;
+    font-family: 'Dosis', sans-serif;
+    padding: 30px;
+}
+
+/* .competenciesLabels{
+    font-size: 1.5em;
+    color: #FFF;
+} */

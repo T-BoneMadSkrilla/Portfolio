@@ -1,24 +1,103 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis:600');
 
+.aboutFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 .indexZero{
     color: #FFF;
-    margin-left: 20px;
-    font-size: 1em;
-    
+    margin: 20px;
+    font-size: 1.1em;
+
 }
 
 .firstParagraph{
-    margin-left: 20px;
+    margin: 20px;
     color: #61dafb;
-    font-size: 1em;
+    font-size: 1.1em;
     font-family: 'Dosis', sans-serif;
-    max-width: 40vw;;
+    justify-content: space-around;
+    /* max-width: 40vw;; */
 }
 
 .secondParagraph{
-    margin-left: 20px;
+    margin: 20px;
     color: #FFF;
-    font-size: 1em;
+    font-size: 1.1em;
     font-family: 'Dosis', sans-serif;
-    max-width: 40vw;
+    /* max-width: 40vw; */
+   
+}
+
+/* .firstGraph{
+    color: #FFF;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: center;
+    margin-top: 10px;
+} */
+.competenciesPlaceHolder{
+    min-height: 300px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: row;
+    color: #FFF;
+    justify-content: space-around;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.1em;
+}
+
+.cardAroundGraph{
+    display: flex;
+    margin: 0 auto;
+    height: 375px;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+    border-color: black;
+    
+}
+
+.competenciesLegend{
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.firstColorCompetencies{
+    height: 10px;
+    width: 10px;
+    background: #00d8ff;
+}
+
+.secondColorCompetencies{
+    height: 10px;
+    width: 10px;
+    background: rgb(212, 69, 200);
+}
+
+.thirdColorCompetencies{
+    height: 10px;
+    width: 10px;
+    background: #FA6900;
+}
+
+.fontStylingLegend{
+    color: #FFF;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1em;
+}
+
+@Media(max-width: 600px){
+    .cardAroundGraph{
+        padding: 40px;
+        height: 300px;
+        /* width: 100vw; */
+    }
 }

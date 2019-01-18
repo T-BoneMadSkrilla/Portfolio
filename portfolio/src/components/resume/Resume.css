@@ -1,0 +1,18 @@
+.centerResume{
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.containResume{
+    object-fit: contain;
+}
+
+@Media(max-width: 600px){
+    .containResume{
+        width: 100vw;
+        object-fit: scale-down;
+    }
+}

@@ -42,6 +42,7 @@ class Nav extends Component {
                 <Link className="navLinks" to="/"> Home </Link>
                 <Link className="navLinks" to='/about'> About </Link>
                 <Link className="navLinks" to='/work'> Projects </Link>
+                <Link className="navLinks" to='/resume'>Résumé</Link>
                 </div>
              </ReactCSSTransitionGroup>}
             </div>
